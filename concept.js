@@ -29,6 +29,7 @@ class Decorator {
 _Decorator_object = new WeakMap();
 // The Client
 const COMPONENT = new Component();
+console.clear();
 console.log(COMPONENT.method());
 // The component can be decorated
 const Decorated = new Decorator(COMPONENT);
